@@ -1,0 +1,56 @@
+body {
+	font-family: 'open sans', sans-serif;
+	padding-top: 50px;
+	margin: 0;
+}
+
+section {
+	padding: 50px 0;
+}
+
+nav {
+	background: #ffa600;
+	height: 60px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+nav > a {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	left: 25px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	top:10px;
+}
+
+nav ul{
+	position: absolute;
+	right: 25px;
+	top:5px;
+}
+
+nav li {
+	display: inline-block;
+	padding:0 15px;
+}
+
+nav li > a {
+	color: #fff;
+	text-decoration: none;
+	-wekbit-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+}
+
+nav li > a:hover,
+nav li > a:focus {
+	color: #cfc91d;
+}
+
+
